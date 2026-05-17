@@ -1,0 +1,2 @@
+{"level":"error","message":"Error creating a user: Error: User already exists","service":"Acquisitions-api"}
+{"level":"error","message":"Signup error User already exists","service":"Acquisitions-api","stack":"Error: User already exists\n    at createUser (C:\\Users\\mel\\Desktop\\MIki INfo\\devops\\acquisitions\\src\\services\\auth.service.ts:14:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (C:\\Users\\mel\\Desktop\\MIki INfo\\devops\\acquisitions\\src\\controllers\\auth.controller.ts:18:22)"}

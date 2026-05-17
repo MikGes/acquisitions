@@ -1,0 +1,13 @@
+{"level":"info","message":"Hello there","service":"Acquisitions-api"}
+{"level":"info","message":"::1 - - [16/May/2026:09:02:50 +0000] \"HEAD / HTTP/1.1\" 200 12 \"-\" \"curl/8.13.0\"","service":"Acquisitions-api"}
+{"level":"info","message":"::1 - - [16/May/2026:09:05:23 +0000] \"HEAD / HTTP/1.1\" 200 12 \"-\" \"curl/8.13.0\"","service":"Acquisitions-api"}
+{"level":"info","message":"A new user with an email of shakira3@gmail.com is created","service":"Acquisitions-api"}
+{"level":"info","message":"::1 - - [17/May/2026:08:30:46 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 104 \"-\" \"PostmanRuntime/7.53.0\"","service":"Acquisitions-api"}
+{"level":"info","message":"::1 - - [17/May/2026:08:31:14 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 264 \"-\" \"PostmanRuntime/7.53.0\"","service":"Acquisitions-api"}
+{"level":"info","message":"::1 - - [17/May/2026:12:57:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 264 \"-\" \"PostmanRuntime/7.54.0\"","service":"Acquisitions-api"}
+{"level":"info","message":"User has been created with this info: [object Object]","service":"Acquisitions-api"}
+{"level":"info","message":"User registered successfully hello@gmail.com","service":"Acquisitions-api"}
+{"level":"info","message":"::1 - - [17/May/2026:12:57:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"PostmanRuntime/7.54.0\"","service":"Acquisitions-api"}
+{"level":"error","message":"Error creating a user: Error: User already exists","service":"Acquisitions-api"}
+{"level":"error","message":"Signup error User already exists","service":"Acquisitions-api","stack":"Error: User already exists\n    at createUser (C:\\Users\\mel\\Desktop\\MIki INfo\\devops\\acquisitions\\src\\services\\auth.service.ts:14:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (C:\\Users\\mel\\Desktop\\MIki INfo\\devops\\acquisitions\\src\\controllers\\auth.controller.ts:18:22)"}
+{"level":"info","message":"::1 - - [17/May/2026:12:57:59 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 495 \"-\" \"PostmanRuntime/7.54.0\"","service":"Acquisitions-api"}
